@@ -24,7 +24,10 @@ FrogRiverOne
 * Find the earliest time when a frog can jump to the other side of a river.
 
 PermCheck
-* Check whether array A is a permutation
+* Check whether array A is a permutation.
+
+MissingInteger
+* Find the minimal positive integer not occuring in a given sequence.
 
 
 
