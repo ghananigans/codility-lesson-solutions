@@ -5,6 +5,7 @@ All challenges will be sorted into the appropriate lessons, exactly like how cod
 
 https://codility.com/programmers/lessons/
 
+
 Lesson 1: Time Complexity
 ------------------------
 TapeEquilibrium
@@ -15,4 +16,12 @@ FrogJmp
 
 PermMissingElem
 * Find the missing element in a given permutation. 
+
+
+Lesson 2: Counting Elements
+---------------------------
+FrogRiverOne
+* Find the earliest time when a frog can jump to the other side of a river.
+
+
 
