@@ -1,5 +1,6 @@
 // Code written in C
 // I used this task as an opportunity to play around with pointers a bit, explaining the confusing math with the pointers.
+// There is C++ equivalent of this code available in solution.cpp
 // Correctness: 100 %
 // Performance: 100 %
 // Time Complexity: O(N + M)
