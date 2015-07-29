@@ -41,7 +41,8 @@ CountDiv
 PassingCars
 * Count the number of passing cars on the road.
 
-
+MinAvgTwoSlice
+* Find the minimal average of any slice containing at least two elements.
 
 
 
