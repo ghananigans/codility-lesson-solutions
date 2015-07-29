@@ -44,5 +44,8 @@ PassingCars
 MinAvgTwoSlice
 * Find the minimal average of any slice containing at least two elements.
 
+GenomicRangeQuery
+* Find the minimal nucleotide from a range of sequence DNA.
+
 
 
