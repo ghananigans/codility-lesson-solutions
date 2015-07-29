@@ -48,4 +48,10 @@ GenomicRangeQuery
 * Find the minimal nucleotide from a range of sequence DNA.
 
 
+Lesson 4: Sorting
+-----------------
+MaxProductOfThree
+* Maximize A[P]\*A[Q]\*A[R] for any triplet (P, Q, R).
+
+
 
