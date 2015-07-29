@@ -38,7 +38,8 @@ Lesson 3: Prefix Sums
 CountDiv
 * Compute number of integers divisible by k in range [a..b].
 
-
+PassingCars
+* Count the number of passing cars on the road.
 
 
 
