@@ -1,80 +1,58 @@
-// you can use includes, for example:
-// #include <algorithm>
-
-// you can write to stdout for debugging purposes, e.g.
-// cout << "this is a debug message" << endl;
+// Code written in C++
+// Correctness: 100 %
+// Performance: 100 %
+// Time Complexity: O(N + M)
+// Space Complexity: O(N)
 
 vector<int> solution(string &S, vector<int> &P, vector<int> &Q) {
-    int N = S.length();
-    int M = P.size();
+    const int NUCLEOTIDES_TO_USE = 3;
+    const int N = S.length();
+    const int M = P.size();
     
-    int *A = new int[N];
-    int *C = new int[N];
-    int *G = new int[N];
-
-    A[0] = 0;
-    C[0] = 0;
-    G[0] = 0;
-
-    switch (S[0]) {
-        case 'A':
-            A[0] = 1;
-            break;
-        case 'C':
-            C[0] = 1;
-            break;
-        case 'G':
-            G[0] = 1;
-            break;
+    int **dna = new int*[NUCLEOTIDES_TO_USE];
+    
+    for (int i = 0; i < NUCLEOTIDES_TO_USE; i++) {
+        dna[i] = new int[N + 1];
+        dna[i][0] = 0;
     }
+    
+    for (int i = 1; i <= N; i++) {
+        for (int j = 0; j < NUCLEOTIDES_TO_USE; j++) {
+            dna[j][i] = dna[j][i - 1];
+        }
 
-    for (int i = 1; i < N; i++) {
-        A[i] = A[i-1];
-        C[i] = C[i-1];
-        G[i] = G[i-1];
-
-        switch (S[i]) {
+        switch (S[i - 1]) {
             case 'A':
-                A[i]++;
+                dna[0][i]++;
                 break;
             case 'C':
-                C[i]++;
+                dna[1][i]++;
                 break;
             case 'G':
-                G[i]++;
+                dna[2][i]++;
+                break;
+            default:
                 break;
         }
     }
-
-    std::vector<int> *result = new std::vector<int>(M);
-
+    
+    std::vector<int> *results = new std::vector<int>(M);
+    
     for (int i = 0; i < M; i++) {
-        if (P[i] > 0) {
-            if ((A[Q[i]] - A[P[i] - 1]) > 0) {
-                (*result)[i] = 1;
-            } else if ((C[Q[i]] - C[P[i] - 1]) > 0) {
-                (*result)[i] = 2;
-            } else if ((G[Q[i]] - G[P[i] - 1]) > 0) {
-                (*result)[i] = 3;
-            } else {
-                (*result)[i] = 4;
-            }
-        } else {
-            if ((A[Q[i]]) > 0) {
-                (*result)[i] = 1;
-            } else if ((C[Q[i]]) > 0) {
-                (*result)[i] = 2;
-            } else if ((G[Q[i]]) > 0) {
-                (*result)[i] = 3;
-            } else {
-                (*result)[i] = 4;
+        (*results)[i] = 4;
+        
+        for (int j = 0; j < NUCLEOTIDES_TO_USE; j++) {
+            if ((dna[j][Q[i] + 1] - dna[j][P[i]]) > 0) {
+                (*results)[i] = j + 1;
+                break;
             }
         }
     }
-
-    delete[] A;
-    delete[] C;
-    delete[] G;
-
-    return *result;
+    
+    for (int j = 0; j < NUCLEOTIDES_TO_USE; j++) {
+        delete[] dna[j];
+    }
+    delete[] dna;
+    
+    return *results;
 }
