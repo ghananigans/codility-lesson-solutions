@@ -59,6 +59,9 @@ Triangle
 Distinct
 * Compute number of distinct values in an array.
 
+NumberOfDiscIntersections
+* Compute the number of intersections in a sequence of discs.
+
 
 
 
