@@ -54,4 +54,8 @@ MaxProductOfThree
 * Maximize A[P]\*A[Q]\*A[R] for any triplet (P, Q, R).
 
 
+Distinct
+* Compute number of distinct values in an array.
+
+
 
