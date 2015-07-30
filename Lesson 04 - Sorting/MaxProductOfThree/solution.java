@@ -7,7 +7,7 @@
 class Solution {
     public int solution(int[] A) {
         int N = A.length;
-        quickSort(A, 0, N - 1);
+        quicksort(A, 0, N - 1);
 
         int tmp1 = (A[0] * A[1]);
         int tmp2 = (A[N - 2] * A[N - 3]);
@@ -19,15 +19,15 @@ class Solution {
         }
     }
 
-    private void quickSort(int arr[], int left, int right) {
+    private void quicksort(int arr[], int left, int right) {
         int index = partition(arr, left, right);
 
         if (left < index - 1) {
-            quickSort(arr, left, index - 1);
+            quicksort(arr, left, index - 1);
         }
 
         if (index < right) {
-            quickSort(arr, index, right);
+            quicksort(arr, index, right);
         }
     }
 
