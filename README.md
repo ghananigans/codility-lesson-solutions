@@ -53,9 +53,12 @@ Lesson 4: Sorting
 MaxProductOfThree
 * Maximize A[P]\*A[Q]\*A[R] for any triplet (P, Q, R).
 
+Triangle
+* Determine whether a triangle can be built from a given set of edges.
 
 Distinct
 * Compute number of distinct values in an array.
+
 
 
 
