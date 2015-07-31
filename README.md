@@ -76,3 +76,15 @@ Brackets
 
 Fish
 * N voracious fish are moving along a river. Calculate how many fish are still alive.
+
+
+Lesson 6: Leader
+----------------
+Dominator
+* Find an index of an array such that its value occurs at more than half of indices in the array. 
+
+
+
+
+
+
