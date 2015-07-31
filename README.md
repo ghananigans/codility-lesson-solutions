@@ -71,5 +71,7 @@ Nesting
 StoneWall
 * Cover "Manhattan skyline" using the minimum number of rectangles.
 
+Brackets
+* Determine whether given string of parentheses is properly nested.
 
 
