@@ -74,4 +74,5 @@ StoneWall
 Brackets
 * Determine whether given string of parentheses is properly nested.
 
-
+Fish
+* N voracious fish are moving along a river. Calculate how many fish are still alive.
