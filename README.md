@@ -3,7 +3,7 @@ My solutions to Codility's online lessons' tasks
 
 All tasks and solutions will be sorted into the appropriate lessons, exactly like how codility organizes them. 
 
-https://codility.com/programmers/lessons/
+Link to Lessons an tasks: https://codility.com/programmers/lessons/
 
 
 Lesson 1: Time Complexity
