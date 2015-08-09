@@ -92,6 +92,7 @@ Lesson 7: Maximum Slice Problem
 MaxDoubleSliceSum
 * Find the maximal sum of any double slice.
 
-
+MaxProfit
+* Given a log of stock prices compute the maximum possible earning.
 
 
