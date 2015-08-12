@@ -97,3 +97,13 @@ MaxProfit
 
 MaxSliceSum
 * Find a maximum sum of a compact subsequence of array elements.
+
+
+Lesson 8: Prime and Composite Numbers
+----------------------
+MinPerimeterRectangle
+* Find the minimal perimeter of any rectangle whose area equals N.
+
+
+
+
