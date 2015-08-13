@@ -104,6 +104,7 @@ Lesson 8: Prime and Composite Numbers
 MinPerimeterRectangle
 * Find the minimal perimeter of any rectangle whose area equals N.
 
-
+CountFactors
+* Count factors of a give number n.
 
 
