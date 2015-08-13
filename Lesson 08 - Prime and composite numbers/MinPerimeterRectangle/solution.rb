@@ -1,7 +1,7 @@
-# Code written in Perl
+# Code written in ruby
 # Correctness: 100 %
 # Performance: 100 %
-# Time Complexity: O(sqrt(N))
+# Time Complexity: O(sqrt(n))
 # Space Complexity: O(1)
 
 def solution(n)
