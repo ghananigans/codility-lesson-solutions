@@ -110,5 +110,9 @@ CountFactors
 Peaks
 * Divide an array into the maximum number of same-sized blocks, each of which should contain an index P such that A[P - 1] < A[P] > A[P + 1].
 
+Flags
+* Find the maximum number of flags that can be set on mountain peaks.
+
+
 
 
