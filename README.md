@@ -100,7 +100,7 @@ MaxSliceSum
 
 
 Lesson 8: Prime and Composite Numbers
-----------------------
+-------------------------------------
 MinPerimeterRectangle
 * Find the minimal perimeter of any rectangle whose area equals N.
 
@@ -112,6 +112,12 @@ Peaks
 
 Flags
 * Find the maximum number of flags that can be set on mountain peaks.
+
+
+Lesson 9: Sieve of Eratosthenes
+-------------------------------
+CountSemiprimes
+* Count the semiprime numbers in the given range [a..b].
 
 
 
