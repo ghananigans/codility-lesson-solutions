@@ -119,6 +119,10 @@ Lesson 9: Sieve of Eratosthenes
 CountSemiprimes
 * Count the semiprime numbers in the given range [a..b].
 
+CountNonDivisible
+* Calculate the number of elements of an array that are not divisors of each element.
+
+
 
 
 
