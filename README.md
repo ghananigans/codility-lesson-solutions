@@ -123,6 +123,10 @@ CountNonDivisible
 * Calculate the number of elements of an array that are not divisors of each element.
 
 
+Lesson 10: Euclidean algorithm
+------------------------------
+ChocolatesByNumbers
+* There are N chocolates in a circle. Count the number of chocolates you will eat.
 
 
 
