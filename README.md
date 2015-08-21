@@ -129,4 +129,5 @@ ChocolatesByNumbers
 * There are N chocolates in a circle. Count the number of chocolates you will eat.
 
 
-
+CommonPrimeDivisors
+* Check whether two numbers have the same prime divisors.

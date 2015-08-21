@@ -1,8 +1,8 @@
-#Code written in Python
-#Correctness: 100 %
-#Performance: 100 %
-#Time Complexity: O(log(N + M))
-#Space Complexity: O(log(N + M))
+# Code written in Python
+# Correctness: 100 %
+# Performance: 100 %
+# Time Complexity: O(log(N + M))
+# Space Complexity: O(log(N + M))
 
 def solution(N, M):
     nm_gcd = gcd(N, M, 1)
