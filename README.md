@@ -6,7 +6,7 @@ All tasks and solutions will be sorted into the appropriate lessons, exactly lik
 Link to Lessons and tasks: https://codility.com/programmers/lessons/
 
 
-Lesson 1: Time Complexity
+Lesson 3: Time Complexity
 ------------------------
 TapeEquilibrium
 * Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
@@ -18,7 +18,7 @@ PermMissingElem
 * Find the missing element in a given permutation. 
 
 
-Lesson 2: Counting Elements
+Lesson 4: Counting Elements
 ---------------------------
 FrogRiverOne
 * Find the earliest time when a frog can jump to the other side of a river.
@@ -33,7 +33,7 @@ MaxCounters
 * Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum.
 
 
-Lesson 3: Prefix Sums
+Lesson 5: Prefix Sums
 --------------------
 CountDiv
 * Compute number of integers divisible by k in range [a..b].
@@ -48,7 +48,7 @@ GenomicRangeQuery
 * Find the minimal nucleotide from a range of sequence DNA.
 
 
-Lesson 4: Sorting
+Lesson 6: Sorting
 -----------------
 MaxProductOfThree
 * Maximize A[P]\*A[Q]\*A[R] for any triplet (P, Q, R).
@@ -63,7 +63,7 @@ NumberOfDiscIntersections
 * Compute the number of intersections in a sequence of discs.
 
 
-Lesson 5: Stacks and Queues
+Lesson 7: Stacks and Queues
 ---------------------------
 Nesting
 * Determine whether given string of parentheses is properly nested.
@@ -78,7 +78,7 @@ Fish
 * N voracious fish are moving along a river. Calculate how many fish are still alive.
 
 
-Lesson 6: Leader
+Lesson 8: Leader
 ----------------
 Dominator
 * Find an index of an array such that its value occurs at more than half of indices in the array. 
@@ -87,7 +87,7 @@ EquiLeader
 * Find the index S such that the leaders of the sequences A[0], A[1], ..., A[S] and A[S + 1], A[S + 2], ..., A[N - 1] are the same.
 
 
-Lesson 7: Maximum Slice Problem
+Lesson 9: Maximum Slice Problem
 -------------------------------
 MaxDoubleSliceSum
 * Find the maximal sum of any double slice.
@@ -99,7 +99,7 @@ MaxSliceSum
 * Find a maximum sum of a compact subsequence of array elements.
 
 
-Lesson 8: Prime and Composite Numbers
+Lesson 10: Prime and Composite Numbers
 -------------------------------------
 MinPerimeterRectangle
 * Find the minimal perimeter of any rectangle whose area equals N.
@@ -114,7 +114,7 @@ Flags
 * Find the maximum number of flags that can be set on mountain peaks.
 
 
-Lesson 9: Sieve of Eratosthenes
+Lesson 11: Sieve of Eratosthenes
 -------------------------------
 CountSemiprimes
 * Count the semiprime numbers in the given range [a..b].
@@ -123,7 +123,7 @@ CountNonDivisible
 * Calculate the number of elements of an array that are not divisors of each element.
 
 
-Lesson 10: Euclidean algorithm
+Lesson 12: Euclidean algorithm
 ------------------------------
 ChocolatesByNumbers
 * There are N chocolates in a circle. Count the number of chocolates you will eat.
