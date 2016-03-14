@@ -6,8 +6,22 @@ All tasks and solutions will be sorted into the appropriate lessons, exactly lik
 Link to Lessons and tasks: https://codility.com/programmers/lessons/
 
 
+Lesson 1: Iterations
+--------------------
+BinaryGap
+* Find longest sequence of zeros in binary representation of an integer.
+
+
+Lesson 2: Arrays
+----------------
+CyclicRotation
+* Rotate an array to the right by a given number of steps.
+
+OddOccurrencesInArray
+* Find value that occurs in odd number of elements.
+
 Lesson 3: Time Complexity
-------------------------
+-------------------------
 TapeEquilibrium
 * Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
 
