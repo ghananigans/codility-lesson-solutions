@@ -15,7 +15,7 @@ The goal is to calculate the number of distinct slices.
 
 Write a function:
 
-int solution(int M, int A[], int N);
+def solution(M, A)
 
 that, given an integer M and a non-empty zero-indexed array A consisting of N integers, returns the number of distinct slices.
 
@@ -40,4 +40,3 @@ Complexity:
 expected worst-case time complexity is O(N);
 expected worst-case space complexity is O(M), beyond input storage (not counting the storage required for input arguments).
 Elements of input arrays can be modified.
-

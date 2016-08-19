@@ -12,7 +12,7 @@ The absolute distinct count of this array is 5, because there are 5 distinct abs
 
 Write a function:
 
-int solution(int A[], int N);
+def solution(A)
 
 that, given a non-empty zero-indexed array A consisting of N numbers, returns absolute distinct count of array A.
 
@@ -36,4 +36,3 @@ Complexity:
 expected worst-case time complexity is O(N);
 expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
 Elements of input arrays can be modified.
-
