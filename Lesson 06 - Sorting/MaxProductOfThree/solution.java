@@ -15,7 +15,7 @@ class Solution {
         if (A[N - 1] > 0) {
             return A[N - 1] * ((tmp1 > tmp2) ? tmp1 : tmp2);
         } else {
-            return A[N - 1] * ((tmp1 < tmp2) ? tmp1 : tmp2);
+            return A[N - 1] * tmp2;
         }
     }
 
